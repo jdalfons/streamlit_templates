@@ -8,5 +8,3 @@ CREATE TABLE IF NOT EXISTS users (
     password_change_required BOOLEAN NOT NULL DEFAULT 0
 );
 
--- Create default users with hashed passwords
--- Use pre-hashed passwords
